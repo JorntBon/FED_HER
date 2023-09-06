@@ -39,12 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.johancruijffarena.nl/home/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-image/JC_ArenA_Oranje" width="375px" alt="Johan Cruijff Arena - Oranje">
+  Johan Cruijff Arena Home  
+  <img src="readme-image/JC_Arena_Home" width="375px" alt="Johan Cruijff Arena - Home">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/JC_ArenA_Kalender" width="375px" alt="Johan Cruijff Arena - Kalender">
+  Johan Cruijff Arena Product Page 
+  <img src="readme-images/JC_Arena_Product" width="375px" alt="Johan Cruijff Arena - Product">
  
 </details>
 
