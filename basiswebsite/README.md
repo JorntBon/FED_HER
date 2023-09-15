@@ -53,7 +53,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+  <summary>
+  Op het gebied van toegangkelijkheid scoort de johancruijff arena website niet erg hoog. Het navigeren met de 'tab' toets werkt heel slecht. Er is geen duidelijkheid waar de gebruiker zich bevind, niet alle tab elementen zijn uberhaupt zichtbaar én er ontbreken veel alt teksten.
+
+  Content technisch, qua contrast, tekst- en kleur gebruik, is er weinig mis met de website. Genoeg ruimte tussen de elementen, website kan gemakkelijk draaien.
+
+  Headings van de website zijn correct. Wordt gebruik gemaakt van een list. Sommige afbeeldingen missen wel alt-teksten.
+
+  De video op de pagina staat op auto-play, hier kan de gebruiker geen verandering in brengen... Bij sommige videos zijn geen captions. Dingen die knoppen moeten voorstellen, zijn geen <buttons> èn geen skip link.... Al met al niet al te best!
+
+  </summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
