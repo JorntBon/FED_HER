@@ -71,10 +71,10 @@ De video op de pagina staat op auto-play, hier kan de gebruiker geen verandering
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="/fotos_ReadMe/Screenshot 2023-09-21 at 16.34.42.png" width="375px" alt="breakdown van de hele pagina 1/4">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="/fotos_ReadMe/Screenshot 2023-09-21 at 16.36.04.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -97,11 +97,14 @@ De video op de pagina staat op auto-play, hier kan de gebruiker geen verandering
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Jornt --- Hoe kom ik aan deze GIF? Hoe werkt downloaden van een font ook alweer?
+  | Magdalena ---         
+  | Liam ---   
+  | Esra ---    
+  | Sarah ---
+  
+   
+
 
 
   ### Verslag van meeting

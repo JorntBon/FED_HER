@@ -8,8 +8,6 @@
 
 
 
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -17,15 +15,112 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
+	--ajax-rood: #e11a21;
+	 
+}
+
+@font-face {
+	font-family: 'tomorrow';
+	src: url('/fonts/Tomorrow-Bold/tomorrow/Tomorrow-Black.ttf') format('ttf'),
+		url('/fonts/Tomorrow-Bold/tomorrow/Tomorrow-Black.ttf') format('ttf'),
+	
+	
+	/* Add more font properties if needed, like font-weight and font-style */
+  }
+
+
+/*********************/
+/* STYLING */
+/*********************/
+
+body{
+font-family: 'tomorrow';
+
+}
+
+header nav {
+	background-color: var(--ajax-rood);
+
+}
+
+/* JC Arena Logo */
+header nav a img {
+	width: 10em;
+	position: absolute;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Zoek icon */
+header nav ul p img {
+width: 1em;
+}
+
+header nav ul {
+	display: flex;
+	width: 100%;
+	padding: 0%;
+	list-style: none;
+	margin-left: 10em;
+}
+
+
+/* Alle links in de NAV */
+header nav ul a {
+color: white;
+text-decoration: none;
+}
+
+
+/*  begin bovenste sectie  */
+main section:first-of-type ul{
+	display: grid;
+	gap: 16px;
+	padding: 16px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr ;
+	margin-top: 3em;
+	height: 35em;
 }
 
 
 
+main section:first-of-type ul li{
+	border-radius: 1.5%;
+	border: solid 1px var(--ajax-rood);
+}
+
+/*  eerste vd grid 'oranje id arena'  */
+main section:first-of-type ul li:nth-of-type(1){
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	background-image: url('../images/Oranje_in_de_ArenA.webp');
+	object-fit: cover;
+}
+
+main section:first-of-type ul li:nth-of-type(1) h2{
+color: white;
+}
+
+main section:first-of-type ul li:nth-of-type(1) h3{
+	color: white;
+	}
+
+main section:first-of-type ul li:nth-of-type(2){
+	grid-column-start: 3;
+	grid-column-end: 5;
+	
+}
 
 
-/****************/
-/* JOUW STYLING */
-/****************/
 
-/* jouw code */
+/*  begin 2e sectie  */
+main section:nth-of-type(2){
+	background-image: url('../images/JC_Arena_Bovenaf.jpeg');
+	height: 35em;
 
+}
