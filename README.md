@@ -133,7 +133,7 @@ Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat
   samen met je groepje opstellen
 
   - Liam: Afbeeldingen caroussel met animatie. Nth-of-type voor de kleur van tekst lukt niet. Hoe kun je het beste de iconen in de navbar doen.
-  
+
   - Esra: Ik struggle op dit moment met mijn iconen rechts krijgen in het menu. Ik wil dat het logo rechts blijft, en mijn logo links. Mijn afbeelding in de eerste section is heel condensed terwijl ik wel de juiste afmetingen en afbeelding heb gebruikt.
 
   - Sarah: Header images overhoop gehaald, hoe fix ik dit? Hoe maak ik een button van een img en een woord samen? Hoe spreek ik alleen het logo aan, laatste img van de header in de tweede nav?
@@ -144,12 +144,10 @@ Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat
          Tijdens het testen kwam ik erachter dat het kruisje niet laadt. Hoe kan dit?
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  
+  - de body heeft standaard CSS meegekregen. Zet dit op 'unset' om margins te voorkomen.
+  - Font-weights moeten nog gedownload worden. Nu heb ik enkel de 'regular' erin zitten.
+  - Het kruisje stond locaal op m'n computer geroot. Deze folder path moet opnieuw worden geschreven.
 
 </details>
 
