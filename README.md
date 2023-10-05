@@ -54,7 +54,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>Op het gebied van toegangkelijkheid scoort de johancruijff arena website niet erg hoog. Het navigeren met de 'tab' toets werkt heel slecht. Er is geen duidelijkheid waar de gebruiker zich bevind, niet alle tab elementen zijn uberhaupt zichtbaar én er ontbreken veel alt teksten.
+  <summary>Op het gebied van toegangkelijkheid scoort de Johan Cruijff ArenA website niet erg hoog. Het navigeren met de 'tab' toets werkt heel slecht. Er is geen duidelijkheid waar de gebruiker zich bevind, niet alle tab elementen zijn uberhaupt zichtbaar én er ontbreken veel alt teksten.
 Content technisch, qua contrast, tekst- en kleur gebruik, is er weinig mis met de website. Genoeg ruimte tussen de elementen, website kan gemakkelijk draaien.
 
 Headings van de website zijn correct. Wordt gebruik gemaakt van een list. Sommige afbeeldingen missen wel alt-teksten.
@@ -91,29 +91,27 @@ De video op de pagina staat op auto-play, hier kan de gebruiker geen verandering
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Was goed van start, helaas was ik begonnen bij het ontwerpen van een volledig computer scherm. 
+Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat terug kwam
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   | Jornt --- Hoe kom ik aan deze GIF? Hoe werkt downloaden van een font ook alweer?
-  | Magdalena ---         
+  | Magdalena ---       
   | Liam ---   
   | Esra ---    
   | Sarah ---
-  
+  Helaas hadden we deze sessie niet goed voorbereid. Volgende sessie zal de agenda up-to-date zijn!
    
 
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  Uitleg ontvangen hoe alle media op een website gevonden kan worden. 
+  Ook weer fris in het geheugen hoe fonts (gedownloade) ingeladen worden in de website.
+  Volgende keer beter voorbereiden voor de sessie.
 
 </details>
 
@@ -127,18 +125,17 @@ De video op de pagina staat op auto-play, hier kan de gebruiker geen verandering
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Gaat eigenlijk allemaal wel goed. Klein moment van wanhoop gehad toen ik van groot scherm naar klein wilde gaan.
+  Leek onmogelijk. Toen alles verwijderd, vanaf start weer gaan CSS'en, gaat de goede kant op!
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  Liam:
+  Esra:
+  Sarah:
+  Magdalena:
+  Jornt: Ik wil graag weten hoezo mijn 2e section niet het scherm volledig vult. Ook wil ik weten waarom ik de 'font-weight' van m'n nav niet kan aanpassen.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
