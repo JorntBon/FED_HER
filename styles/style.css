@@ -5,11 +5,9 @@
   box-sizing:border-box;  
 }
 
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
+/*  <summary> <details> klapt uit  */
 /*********************/
 :root {
 	/* startje */
@@ -19,14 +17,33 @@
 	 
 }
 
+/* Import normal and bold versions for JohanCruijffArenA-Headline */
 @font-face {
-	font-family: 'tomorrow';
-	src: url('/fonts/Tomorrow-Bold/tomorrow/Tomorrow-Black.ttf') format('ttf'),
-		url('/fonts/Tomorrow-Bold/tomorrow/Tomorrow-Black.ttf') format('ttf'),
-	
-	
-	/* Add more font properties if needed, like font-weight and font-style */
+	font-family: 'JCfont-Headline';
+	src: url('../fonts/JohanCruijffArenA-Headline-Regular.woff2') format('woff2');
   }
+
+@font-face {
+	font-family: 'JCfont';
+	src: url('../fonts/JohanCruijffArenA_Font.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'IBM';
+	src: url(../fonts/ibm.woff2) format('woff2');
+}
+
+/* Import the bold version of the IBM font */
+@font-face {
+	font-family: 'IBM2';
+	src: url(../fonts/ibm2.woff2) format('woff2'); 
+  }
+
+@font-face {
+	font-family: 'Lucky';
+	src: url(../fonts/LuckyFellas.woff2) format('woff2');
+}
+  
 
 
 /*********************/
@@ -34,93 +51,223 @@
 /*********************/
 
 body{
-font-family: 'tomorrow';
-
+font-family: 'IBM';
 }
 
-header nav {
-	background-color: var(--ajax-rood);
-
-}
-
-/* JC Arena Logo */
-header nav a img {
-	width: 10em;
-	position: absolute;
-}
 
 ul {
 	list-style: none;
 }
 
-/* Zoek icon */
-header nav ul p img {
-width: 1em;
+header a img{
+	width: 10em;
 }
 
-header nav ul {
+header:first-of-type {
+	background-color: var(--ajax-rood);
+    height: 68px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+header button img {
+	width: 2em;
+	background-color: unset;
+    border: unset;
+    display: flex;
+    align-items: center;
+	margin-right: 1em;
+}
+
+header button:first-of-type {
+	background-color: unset;
+	border: unset;
+	padding-left: 1.5em;
+    border-left: solid 1px #c1161c;
+	margin-top: 1.5em;
+    margin-bottom: 1.5em;
+	position: absolute;
+    right: 0em;
+}
+
+header a:first-of-type {
+	z-index: 12;
+}
+
+
+
+header nav:first-of-type ul {
 	display: flex;
-	width: 100%;
-	padding: 0%;
-	list-style: none;
-	margin-left: 10em;
+    background-color: var(--ajax-rood);
+    flex-direction: column;
+	position: fixed;
+    inset: 0;
+	margin: 0;
+	top: 4em;
+	translate: 100% -120%;
+	gap: 2em;
+	padding: 0em;
+    padding-left: 1.5em;
 }
 
+header nav:first-of-type ul.toonMenu {
+    translate: 0 0;
+}
+
+header nav:first-of-type ul li:nth-of-type(2){
+	margin-top: 4em;
+}
+
+
+
+
+header nav:nth-of-type(2){
+	display: none;
+}
+
+/* Sluit knop! */
+header nav ul li:first-of-type {
+	position: absolute;
+    background-color: unset;
+    border: unset;
+    padding-left: 1.5em;
+    border-left: solid 1px #c1161c;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    position: absolute;
+    right: 0em;
+}
+
+header nav:first-of-type ul li:first-of-type img{
+	background-color: var(--ajax-rood);
+    box-shadow: 0 0 0 0.6em var(--ajax-rood), 0 0 0 0.9em var(--ajax-rood);
+    width: 1.5em;
+    position: absolute;
+    bottom: 5em;
+    right: 0.6em;
+}
 
 /* Alle links in de NAV */
 header nav ul a {
-color: white;
-text-decoration: none;
+	color: white;
+    text-decoration: none;
+    font-size: 1em;
+    letter-spacing: 2.4px;
+    font-family: 'IBM';
+    text-transform: uppercase;
+
+}
+
+
+
+header nav:first-of-type ul li img {
+	width: 1em;
 }
 
 
 /*  begin bovenste sectie  */
+main section:first-of-type{
+	height: 19em;
+
+}
+
+
+
 main section:first-of-type ul{
-	display: grid;
-	gap: 16px;
-	padding: 16px;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr ;
-	margin-top: 3em;
-	height: 35em;
+	margin-top: 5em;
+    gap: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow-x: auto;
+    padding-inline-start: inherit;
+    padding: 8px;
+    max-height: 18em;
+    overflow-y: hidden;
 }
 
 
 
 main section:first-of-type ul li{
-	border-radius: 1.5%;
-	border: solid 1px var(--ajax-rood);
+	border-radius: .5em;
+	height: 17em;
+	position: relative;
 }
+
 
 /*  eerste vd grid 'oranje id arena'  */
 main section:first-of-type ul li:nth-of-type(1){
-	grid-column-start: 1;
-	grid-column-end: 3;
-	grid-row-start: 1;
-	grid-row-end: 3;
-	background-image: url('../images/Oranje_in_de_ArenA.webp');
-	object-fit: cover;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15) ), url('../images/Oranje_in_de_ArenA.jpg');
+	background-size: cover;
+  	background-position: center; 
+  	background-repeat: no-repeat; 
+	width: 20em;
+
 }
 
-main section:first-of-type ul li:nth-of-type(1) h2{
-color: white;
-}
 
-main section:first-of-type ul li:nth-of-type(1) h3{
+main section:first-of-type ul li h2{
 	color: white;
-	}
-
-main section:first-of-type ul li:nth-of-type(2){
-	grid-column-start: 3;
-	grid-column-end: 5;
-	
+    font-family: 'JCFont';
+    font-size: 1.2em;
+    position: absolute;
+    left: 1em;
+    bottom: 0.3em;
 }
 
+main section:first-of-type ul li h3{
+	color: white;
+    font-family: 'IBM';
+    font-size: .9em;
+    position: absolute;
+    max-width: 18.7em;
+    left: 1.6em;
+    bottom: 3.5em;
+    letter-spacing: 0.02em;
+    font-weight: 100;
+}
+
+	
+/*  2e vd grid 'oranje id arena'  */
+main section:first-of-type ul li:nth-of-type(2){
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15) ), url('../images/ArenaBinnen.jpg');
+	background-size: cover;
+  	background-position: center; 
+  	background-repeat: no-repeat; 
+	width: 20em;
+
+}
+
+/*  3e vd grid 'oranje id arena'  */
+main section:first-of-type ul li:nth-of-type(3){
+	background-image: url('../images/ajaxarena.jpg');
+	background-size: cover;
+  	background-position: center; 
+  	background-repeat: no-repeat; 
+	width: 20em;
+
+}
+
+/*  4e vd grid 'oranje id arena'  */
+main section:first-of-type ul li:nth-of-type(4){
+	background-image: url('../images/AMF.jpg');
+	background-size: cover;
+  	background-position: center; 
+  	background-repeat: no-repeat; 
+	width: 20em;
+
+}
 
 
 /*  begin 2e sectie  */
 main section:nth-of-type(2){
 	background-image: url('../images/JC_Arena_Bovenaf.jpeg');
 	height: 35em;
-
+	background-size: cover;
+  	background-position: center; 
+  	background-repeat: no-repeat; 
 }
