@@ -102,6 +102,7 @@ Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat
   | Liam ---   
   | Esra ---    
   | Sarah ---
+  
   | Allemaal --- Helaas hadden we deze sessie niet goed voorbereid. Volgende sessie zal de agenda up-to-date zijn!
    
 
