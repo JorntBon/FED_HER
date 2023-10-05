@@ -98,11 +98,12 @@ Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat
   samen met je groepje opstellen
 
   | Jornt --- Hoe kom ik aan deze GIF? Hoe werkt downloaden van een font ook alweer?
-  | Magdalena ---         
+  | Magdalena ---       
   | Liam ---   
   | Esra ---    
   | Sarah ---
   
+  | Allemaal --- Helaas hadden we deze sessie niet goed voorbereid. Volgende sessie zal de agenda up-to-date zijn!
    
 
 
@@ -131,12 +132,11 @@ Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  Liam:
+  Esra:
+  Sarah:
+  Magdalena:
+  Jornt: Ik wil graag weten hoezo mijn 2e section niet het scherm volledig vult. Ook wil ik weten waarom ik de 'font-weight' van m'n nav niet kan aanpassen.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
