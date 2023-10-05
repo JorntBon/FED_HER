@@ -132,11 +132,15 @@ Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  Liam: Afbeeldingen caroussel met animatie. Nth-of-type voor de kleur van tekst lukt niet. Hoe kun je het beste de iconen in de navbar doen.
-  Esra: Ik struggle op dit moment met mijn iconen rechts krijgen in het menu. Ik wil dat het logo rechts blijft, en mijn logo links. Mijn afbeelding in de eerste section is heel condensed terwijl ik wel de juiste afmetingen en afbeelding heb gebruikt.
-  Sarah: Header images overhoop gehaald, hoe fix ik dit? Hoe maak ik een button van een img en een woord samen? Hoe spreek ik alleen het logo aan, laatste img van de header in de tweede nav?
-  Karenza: @fontface snap ik even niet, verschil tussen flex en grid, wanneer is wat beter?
-  Jornt: Ik wil graag weten hoezo mijn 2e section niet het scherm volledig vult. Ook wil ik weten waarom ik de 'font-weight' van m'n nav niet kan aanpassen. 
+  - Liam: Afbeeldingen caroussel met animatie. Nth-of-type voor de kleur van tekst lukt niet. Hoe kun je het beste de iconen in de navbar doen.
+  
+  - Esra: Ik struggle op dit moment met mijn iconen rechts krijgen in het menu. Ik wil dat het logo rechts blijft, en mijn logo links. Mijn afbeelding in de eerste section is heel condensed terwijl ik wel de juiste afmetingen en afbeelding heb gebruikt.
+
+  - Sarah: Header images overhoop gehaald, hoe fix ik dit? Hoe maak ik een button van een img en een woord samen? Hoe spreek ik alleen het logo aan, laatste img van de header in de tweede nav?
+
+  - Karenza: @fontface snap ik even niet, verschil tussen flex en grid, wanneer is wat beter?
+
+  - Jornt: Ik wil graag weten hoezo mijn 2e section niet het scherm volledig vult. Ook wil ik weten waarom ik de 'font-weight' van m'n nav niet kan aanpassen. 
          Tijdens het testen kwam ik erachter dat het kruisje niet laadt. Hoe kan dit?
 
   ### Verslag van meeting
