@@ -196,7 +196,10 @@ Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat
 
 
 
-  Ezra:
+  Esra:
+  - Hoe zorg ik ervoor dat de tekst in een section automatisch veranderd?
+  - Hoe rep ik de eerste p in een section aan?
+  - Hoe krijg ik de Jordan en Converse onder elkaar in m'n NAV?
 
   Liam:
   - Hoe krijg ik 3 verschillende menu opties?
