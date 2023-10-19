@@ -180,19 +180,28 @@ Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-  Jornt:
-  | Waarom blijft niet mijn gehele NAV bar plakken?
-    Hoe krijg ik m’n tekst in dit sectie 4 responsive?
-    Er zijn maar 3 fonts beschikbaar om te downloaden, lukt niet om font-weight mee te geven.
 
-  Magdalena:
+  Jornt:
+  -  Waarom blijft niet mijn gehele NAV bar plakken?
+  - Hoe krijg ik m’n tekst in dit sectie 4 responsive?
+  - Er zijn maar 3 fonts beschikbaar om te downloaden, lukt niet om font-weight mee te geven.
+
 
   Sarah:
+  - Ik kan de fonts niet vinden omdat ze geen duidelijke namen hebben
+
+  - Hoe maak ik een rondje boven het winkelmandje
+
+  - Hoe krijg ik een link en een p die onder elkaar staan, dichter op elkaar
+
+
 
   Ezra:
 
   Liam:
-
+  - Hoe krijg ik 3 verschillende menu opties
+  - Hoe maak ik slideshow met animaties
+  - Hoe zorg ik ervoor dat ik verschillende menus kan sluiten met 1 knop
  
 
 
