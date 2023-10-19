@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:PUBLISH
+PRODID:-//Microsoft Corporation//Outlook 11.0 MIMEDIR//EN
+BEGIN:VEVENT
+UID:b11b2297-da7f-40d4-b163-20c8d5377673
+DTSTAMP:20231009T030154Z
+DTSTART:20231010T120000Z
+DTEND:20231010T183000Z
+SUMMARY:Adobe Event: Experience Makers Amsterdam
+LOCATION:Theater Amsterdam\, Danzigerkade 5
+DESCRIPTION:We look forward to welcoming you to Experience Makers Amsterdam on October 10. Please stay tuned for event updates. Find all the latest event information on the event website: https://business.adobe.com/nl/events/experience-makers-amsterdam-2023.html 
+END:VEVENT
+END:VCALENDAR
