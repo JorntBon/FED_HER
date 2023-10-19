@@ -180,12 +180,20 @@ Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat
 
   ### Agenda voor meeting
   samen met je groepje opstellen
+  Jornt:
+  | Waarom blijft niet mijn gehele NAV bar plakken?
+    Hoe krijg ik m’n tekst in dit sectie 4 responsive?
+    Er zijn maar 3 fonts beschikbaar om te downloaden, lukt niet om font-weight mee te geven.
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Magdalena:
+
+  Sarah:
+
+  Ezra:
+
+  Liam:
+
+ 
 
 
   ### Verslag van meeting

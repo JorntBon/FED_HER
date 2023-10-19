@@ -14,30 +14,32 @@
 	--color-text:#111;
 	--color-background:#eee;
 	--ajax-rood: #e11a21;
+	--rood-accent:#c1161c;
 	 
 }
 
-/* Import normal and bold versions for JohanCruijffArenA-Headline */
-@font-face {
-	font-family: 'JCfont-Headline';
-	src: url('../fonts/JohanCruijffArenA-Headline-Regular.woff2') format('woff2');
-  }
+/* Import normal and bold versions for JohanCruijffArenA-Headline  font weights toevoegen*/
 
 @font-face {
 	font-family: 'JCfont';
 	src: url('../fonts/JohanCruijffArenA_Font.woff2') format('woff2');
 }
 
+
+
 @font-face {
 	font-family: 'IBM';
 	src: url(../fonts/ibm.woff2) format('woff2');
 }
 
-/* Import the bold version of the IBM font */
+
+
+
 @font-face {
 	font-family: 'IBM2';
 	src: url(../fonts/ibm2.woff2) format('woff2'); 
   }
+
 
 @font-face {
 	font-family: 'Lucky';
@@ -52,6 +54,7 @@
 
 body{
 font-family: 'IBM';
+margin: 0;
 }
 
 
@@ -75,24 +78,26 @@ header:first-of-type {
     z-index: 10;
 }
 
+
 header button img {
-	width: 2em;
-	background-color: unset;
+    width: 2em;
+    background-color: unset;
     border: unset;
     display: flex;
     align-items: center;
-	margin-right: 1em;
+    margin-right: 1em;
 }
 
 header button:first-of-type {
-	background-color: unset;
-	border: unset;
-	padding-left: 1.5em;
-    border-left: solid 1px #c1161c;
-	margin-top: 1.5em;
+    background-color: unset;
+    border: unset;
+    padding-left: 1.5em;
+    border-left: solid 1px var(--rood-accent);
+    margin-top: 1.5em;
     margin-bottom: 1.5em;
-	position: absolute;
+    position: absolute;
     right: 0em;
+    margin-right: 1em;
 }
 
 header a:first-of-type {
@@ -101,7 +106,7 @@ header a:first-of-type {
 
 
 
-header nav:first-of-type ul {
+header nav > ul{
 	display: flex;
     background-color: var(--ajax-rood);
     flex-direction: column;
@@ -110,9 +115,8 @@ header nav:first-of-type ul {
 	margin: 0;
 	top: 4em;
 	translate: 100% -120%;
-	gap: 2em;
+	gap: 1em;
 	padding: 0em;
-    padding-left: 1.5em;
 }
 
 header nav:first-of-type ul.toonMenu {
@@ -125,32 +129,28 @@ header nav:first-of-type ul li:nth-of-type(2){
 
 
 
-
-header nav:nth-of-type(2){
-	display: none;
-}
-
 /* Sluit knop! */
 header nav ul li:first-of-type {
 	position: absolute;
     background-color: unset;
     border: unset;
     padding-left: 1.5em;
-    border-left: solid 1px #c1161c;
+    border-left: solid 1px --rood-accent;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     position: absolute;
     right: 0em;
 }
 
-header nav:first-of-type ul li:first-of-type img{
+header > nav ul li:first-of-type img{
 	background-color: var(--ajax-rood);
     box-shadow: 0 0 0 0.6em var(--ajax-rood), 0 0 0 0.9em var(--ajax-rood);
     width: 1.5em;
     position: absolute;
     bottom: 5em;
-    right: 0.6em;
+    right: 0em;
 }
+
 
 /* Alle links in de NAV */
 header nav ul a {
@@ -165,9 +165,86 @@ header nav ul a {
 
 
 
-header nav:first-of-type ul li img {
-	width: 1em;
+header > nav ul li img {
+	width: 0.75em;
+    margin-right: 2em;
 }
+
+header nav ul li:last-of-type img {
+    width: 2em;
+    margin-right: 1.5em;
+}
+
+.footerNav {
+    position: absolute;
+    left: 0em;
+    bottom: 0em;
+    }
+
+header nav ul ul {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--rood-accent);
+    z-index: 12;
+    height: 7.5em;
+    left: 0;
+    }
+
+
+/*  Tweede NAV was horror, niet meer aankomen  
+    Iconen etc. */
+header nav ul  ul li img{
+    width: 1.25em;
+    height: 1.25em;    
+}
+
+header nav ul  ul li:nth-of-type(1) img{
+    background-color: unset;
+    padding: 0em;
+    box-shadow: none;
+    width: 1.25em;
+    height: 1.25em;
+    bottom: 0em;
+    right: 14em;
+}
+
+header nav ul  ul li:nth-of-type(2) img{
+    position: absolute;
+    bottom: 5em;
+    left: 10em;
+}
+
+header nav ul  ul li:nth-of-type(3) img{   
+position: absolute;
+    left: 13em;
+    bottom: 5em;
+}
+
+header nav ul  ul li:nth-of-type(4) img{   
+    position: absolute;
+        left: 16em;
+        bottom: 5em;
+    }
+
+header nav ul ul li:nth-of-type(5) p {
+    position: absolute;
+    bottom: 2.5em;
+    left: 12em;
+}
+
+header nav ul ul li:nth-of-type(5) img {
+    margin-left: 0.5em;
+    width: 1.5em;
+}
+
+header nav ul  ul li p{
+    font-family: 'IBM2';
+    color: white;
+    font-size: 12px;
+}
+
 
 
 /*  begin bovenste sectie  */
@@ -175,6 +252,24 @@ main section:first-of-type{
 	height: 19em;
 
 }
+
+header > nav ul li{
+	display: flex;
+    border-bottom: 1px solid var(--rood-accent);
+    padding-bottom: 1em;
+    justify-content: space-between;
+}
+
+header nav:first-of-type ul li:first-of-type{
+    border-bottom: unset;
+}
+
+header nav:first-of-type ul li a{
+    font-family: 'IBM2';
+    padding-left: 1.5em;
+
+}
+
 
 
 
@@ -244,30 +339,783 @@ main section:first-of-type ul li:nth-of-type(2){
 
 /*  3e vd grid 'oranje id arena'  */
 main section:first-of-type ul li:nth-of-type(3){
-	background-image: url('../images/ajaxarena.jpg');
-	background-size: cover;
-  	background-position: center; 
-  	background-repeat: no-repeat; 
-	width: 20em;
+    background-image: url(../images/ajaxarena.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20em;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+main section:first-of-type ul li:nth-of-type(3) img {
+	width: 3.5em;
+}
+
+main section:first-of-type ul li:nth-of-type(3) h2:first-of-type {
+	width: 15em;
+    left: 14%;
+    bottom: 14%;
+}
+
+main section:first-of-type ul li:nth-of-type(3) h2:last-of-type {
+    font-size: 1em;    
+	left: 45%;
+    bottom: 38%;
+}
+
+main section:first-of-type ul li:nth-of-type(3) h3 {
+	left: 25%;
+    bottom: 7%;
+}
+
+main section:first-of-type ul li:nth-of-type(3) span {
+font-family: 'IBM2';
+margin-right: 0.25em;
 }
 
 /*  4e vd grid 'oranje id arena'  */
 main section:first-of-type ul li:nth-of-type(4){
-	background-image: url('../images/AMF.jpg');
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15) ), url(../images/AMF.jpg);
 	background-size: cover;
   	background-position: center; 
   	background-repeat: no-repeat; 
 	width: 20em;
-
 }
+
+main section:first-of-type ul li:nth-of-type(4) h2 {
+	width: 9em;
+    top: 7em;
+}
+
+main section:first-of-type ul li:nth-of-type(4) h3 {
+    bottom: 1em;
+    left: 1.5em;
+}
+
+main section:first-of-type ul li:nth-of-type(4) span {
+	font-family: 'IBM2';
+	margin-right: 0.25em;
+	}
+
 
 
 /*  begin 2e sectie  */
 main section:nth-of-type(2){
-	background-image: url('../images/JC_Arena_Bovenaf.jpeg');
-	height: 35em;
-	background-size: cover;
-  	background-position: center; 
-  	background-repeat: no-repeat; 
+    width: 100%;
+    object-fit: cover;
+    height: 30em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
 }
+
+main section:nth-of-type(2) video{
+    width: 100%;
+    height: 30em;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(60%) contrast(60%);
+}
+
+main section:nth-of-type(2) h1{
+display: flex;
+font-family: 'JCFont';
+font-size: 24px;
+color: white;
+justify-content: center;
+transform: scaleY(1.5);
+margin-bottom: 0em;
+margin-top: 1em;
+}
+
+main section:nth-of-type(2) h2 {
+    text-align: center;
+    font-family: 'IBM';
+    font-size: 1.125rem;
+    letter-spacing: 1.35px;
+    line-height: 1.33;
+    color: white;
+    font-weight: 100;
+    margin-left: 1em;
+    margin-bottom: 4em;
+    margin-right: 1em;
+}
+
+/*  button 1 van sectie 2  */
+main section:nth-of-type(2) ul li:nth-of-type(1) {
+    position: relative;
+    width: 12em;
+    background-color: var(--rood-accent);
+    padding: 0.75em;
+    border-radius: 0.5em;
+    left: 3.5em;
+    bottom: 4em;
+    background-image: linear-gradient( -75deg, var(--rood-accent)3.25em, var(--ajax-rood) 3.25em );
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(1) a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'IBM2';
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    margin-right: 2em;
+
+}
+
+main section:nth-of-type(2) ul li img {
+    width: 1em;
+    margin-left: .5em;
+}
+
+/*  button 2 van sectie 2  */
+main section:nth-of-type(2) ul li:nth-of-type(2) {
+    position: relative;
+    width: 8em;
+    background-image: linear-gradient( -75deg,  #f8f8fb 2.5em, white 2.5em );
+    padding: 0.75em;
+    border-radius: 0.5em;
+    left: 5.5em;
+    bottom: 3.5em;
+   
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(2) a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'IBM2';
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+
+/*  begin sectie 3  */
+main section:nth-of-type(3) {
+    position: relative;
+    height: 40em;
+}
+
+
+main section:nth-of-type(3) > h2 {
+    position: absolute;
+    font-family: 'JCfont';
+    font-size: 1.5rem;
+    width: 12em;
+    left: 0.75em;
+    color: #333;
+    line-height: 1.3;
+    top: 2em;
+}
+
+main section:nth-of-type(3) > h3 {
+font-family: 'IBM2';
+    text-transform: uppercase;
+    font-size: .75rem;
+    color: var(--ajax-rood);
+    position: absolute;
+    left: 1.5em;
+    top: 2.75em;
+    letter-spacing: 1.2px;
+}
+
+
+
+main section:nth-of-type(3) ul li {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ededed;
+    width: 21em;
+}
+
+
+main section:nth-of-type(3) ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 0;
+    top: 8em;
+    left: -1.5em;
+    margin-top: 2em;
+    gap: .5em;
+
+}
+
+main section:nth-of-type(3) ul li h4 {
+    order: -1;
+    align-items: center;
+    background: var(--ajax-rood);
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    font-family: 'JCfont';
+    justify-content: center;
+    font-size: 12px;
+    max-height: 3em;
+    max-width: 3em;
+    padding: 20px;
+}
+
+main section:nth-of-type(3) ul li h2 {
+    font-size: 16px;
+    font-family: 'IBM2';
+    position: absolute;
+    left: 3.25em;
+    width: 19em;
+}
+
+main section:nth-of-type(3) ul li h3:nth-of-type(1){
+    font-family: 'IBM2';
+    font-size: 12px;
+    color: var(--ajax-rood);
+    position: absolute;
+    left: 4.4em;
+    top: 2em;
+}
+
+
+main section:nth-of-type(3) ul li h3:nth-of-type(2){
+    width: 11em;
+    color: rgba(0,0,0,.75);
+    font-family: 'IBM';
+    font-size: 12px;
+    position: absolute;
+    left: 8em;
+    top: 2em;
+}
+
+main section:nth-of-type(3) ul li:nth-of-type(1) h3:nth-of-type(2) {
+    left: 12em;
+}
+
+main section:nth-of-type(3) ul li:nth-of-type(5) h3:nth-of-type(2) {
+left: 9em;
+}
+
+
+main section:nth-of-type(3) > a {
+    left: 1em;
+    position: absolute;
+    bottom: 1em;
+    border-radius: 4px;
+    font-family: 'IBM2';
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    font-size: 12px;
+    color: white;
+    padding: 1.25em;
+    background-image: linear-gradient( -75deg, var(--rood-accent)4em, var(--ajax-rood) 4em );
+    padding-right: 5em;
+    padding-left: 2em;
+}
+
+main section:nth-of-type(3) > a img {
+    width: 1.5em;
+    display: inline;
+    position: absolute;
+    top: 1.6em;
+    right: 1.35em;
+}
+
+
+/*  begin sectie 4 */
+main section:nth-of-type(4) {  
+    position: relative;
+    height: 40em;
+    background-color: var(--ajax-rood);
+    margin-top: 5em;
+
+}
+
+main section:nth-of-type(4) > img{
+    width: 100%;
+}
+
+main section:nth-of-type(4) h3{
+    color: #c5c5c5;
+    font-size: .75rem;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 1em;
+    top: 21em;
+    font-family: 'IBM2';
+}
+
+
+main section:nth-of-type(4) h2{
+    font-family: 'JCfont';
+    font-size: 1.5rem;
+    color: var(--color-background);
+    position: absolute;
+    left: 0.5em;
+    top: 11.25em;
+}
+
+
+main section:nth-of-type(4) h4{
+    font-family: 'IBM';
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+    width: 21em;
+    left: 1em;
+    top: 20.5em;
+}
+
+
+main section:nth-of-type(4) > a {
+    position: relative;
+    background-image: linear-gradient( -75deg, #f8f8fb 4em, white 4em );
+    padding: 1em;
+    border-radius: 0.5em;
+    text-decoration: none;
+    color: black;
+    font-family: 'IBM2';
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1.6px;
+    left: 1em;
+    top: 25.25em;
+    padding-left: 2em;
+}
+
+main section:nth-of-type(4) > a img {
+    width: 1.5em;
+    margin-left: 3em;
+}
+
+
+
+/*  begin sectie 5 */
+main section:nth-of-type(5) {  
+    position: relative;
+    height: 36em;
+    background: url(../images/halfvlak.png) no-repeat 100% 100%;
+    background-size: contain;
+
+}
+
+main section:nth-of-type(5) > h3{  
+font-family: 'IBM2';
+color: var(--ajax-rood);
+font-size: .75rem;
+letter-spacing: 1.6px;
+text-transform: uppercase;
+width: 23em;
+line-height: 1.5;
+position: absolute;
+left: 1em;
+top: 1em;
+}
+
+main section:nth-of-type(5) > h2{  
+font-size: 1.5rem;
+    font-family: 'JCfont';
+    color: #333;
+    position: absolute;
+    left: 0.5em;
+    top: 2em;
+}
+
+
+main section:nth-of-type(5) ul{  
+    position: relative;
+    top: 8em;
+    right: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+main section:nth-of-type(5) ul li img{  
+    width: 4em;
+    height: 4em;
+    object-fit: cover;
+    border-radius: 4px;
+    position: absolute;
+}
+
+main section:nth-of-type(5) ul li {
+    height: 7em;
+    display: flex;
+    flex-direction: column;
+}
+
+main section:nth-of-type(5) ul li h2{
+    font-size: .875em;
+    font-family: 'JCfont';
+    margin-left: 5.25em;
+    hyphens: auto;
+}
+
+main section:nth-of-type(5) ul li h3{
+    font-size: .75em;
+    font-family: 'IBM2';
+    color: var(--ajax-rood);
+    text-transform: uppercase;
+}
+
+main section:nth-of-type(5) ul li:nth-of-type(1) h3 {
+    left: 9.5em;
+    position: absolute;
+    bottom: 26em;
+}
+
+main section:nth-of-type(5) ul li:nth-of-type(2) h3 {
+position: absolute;
+left: 9.5em;
+top: 8em;
+}
+
+main section:nth-of-type(5) ul li:nth-of-type(3) h3 {
+    position: absolute;
+    left: 9.5em;
+    top: 17.5em;
+}
+
+main section:nth-of-type(5) ul li a {
+    margin-right: 5px;
+    letter-spacing: 1.05px;
+    font-family: 'IBM2';
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    position: absolute;
+    left: 8.25em;
+    margin-top: 4.25em;
+}
+
+
+main section:nth-of-type(5) ul li a img{
+    width: 1em;
+    height: 1em;
+    object-fit: scale-down;
+    margin-top: 0.25em;
+    margin-left: 0.5em;
+}
+
+main section:nth-of-type(5) > a {
+    left: 1em;
+    position: absolute;
+    top: 39em;
+    border-radius: 4px;
+    font-family: 'IBM2';
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    font-size: 12px;
+    color: white;
+    padding: 1em;
+    background-image: linear-gradient( -75deg, var(--rood-accent)4em, var(--ajax-rood) 4em );
+    padding-left: 2em;
+    text-decoration: none;
+    padding-right: 1em;
+}
+
+main section:nth-of-type(5) > a img {
+    width: 1.5em;
+    margin-left: 3em;
+    margin-right: 0.5em;
+}
+
+
+/*  begin sectie 6 */
+main section:nth-of-type(6) {  
+    position: relative;
+    height: 42em;
+    background: linear-gradient(rgba(51,51,51,.95),rgba(51,51,51,.95) ), url('../images/Achtergrond_Sectie6.png');
+    margin-top: -1.25em;
+    background-size: cover;
+}
+
+
+main section:nth-of-type(6) > h3 {  
+    font-size: 12px;
+    color: var(--ajax-rood);
+    font-family: 'IBM2';
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    position: absolute;
+    left: 1em;
+    top: 3em;
+}
+
+
+main section:nth-of-type(6) > h2{  
+    top: 2em;
+    color: white;
+    font-family: 'JCfont';
+    font-size: 1.5em;
+    line-height: 1.3;
+    left: 0.5em;
+    position: absolute;
+}
+
+main section:nth-of-type(6) > h4{  
+    font-family: 'IBM';
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+    max-width: 20em;
+    position: absolute;
+    left: 1em;
+    top: 8em;
+}
+
+main section:nth-of-type(6) > a{  
+    left: 1em;
+    position: absolute;
+    top: 25em;
+    border-radius: 4px;
+    font-family: 'IBM2';
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    font-size: 12px;
+    color: white;
+    padding: 1em;
+    background-image: linear-gradient( -75deg, var(--rood-accent)3.25em, var(--ajax-rood) 3.25em );
+    padding-left: 2em;
+    text-decoration: none;
+    padding-right: 1em;
+}
+
+main section:nth-of-type(6) > a img{
+    width: 1.5em;
+    margin-left: 1em;
+
+}
+
+main section:nth-of-type(6) ul {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: absolute;
+    top: 23em;
+    left: 1em;
+    gap: 1em;
+    margin: 0;
+    padding: 0em;
+    width: 100%;    
+}
+
+main section:nth-of-type(6) ul li{    
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 320px;
+    overflow-y: unset;
+    border-radius: 8px;
+}
+
+
+main section:nth-of-type(6) ul li:nth-of-type(1){
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .6) ), url(../images/S6I1.webp);
+    background-size: cover;
+}    
+
+main section:nth-of-type(6) ul li:nth-of-type(2){
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .6) ), url(../images/S6I2.webp);
+    background-size: cover;    
+}
+
+
+main section:nth-of-type(6) ul li:nth-of-type(3){
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .6) ), url(../images/S6I3.webp);
+    background-size: cover;
+}
+
+main section:nth-of-type(6) ul li:nth-of-type(4){
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .6) ), url(../images/S6I4.webp);
+    background-size: cover;
+}
+
+main section:nth-of-type(6) ul li:nth-of-type(5){
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .6) ), url(../images/S6I5.webp);
+    background-size: cover;
+}
+
+main section:nth-of-type(6) ul li h2{
+    font-size: 20px;
+    font-family: 'JCfont';
+    color: white;
+    margin-left: 1em;
+    margin-top: 7em;
+    max-width: 14em;
+}
+
+main section:nth-of-type(6) ul li h3{
+    font-family: 'IBM';
+    color: white;
+    font-size: 14px;
+    max-width: 272px;
+    margin-left: 1.5em;
+}
+
+main section:nth-of-type(6) ul li a{
+    text-decoration: none;
+    font-family: 'IBM2';
+    color: white;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-left: 1.5em;
+    letter-spacing: 1.05px;
+    margin-right: 1em;
+}
+
+main section:nth-of-type(6) ul li a img{
+    width: 1.5em;
+    margin-left: 1em;
+}
+
+main section:nth-of-type(6) ul li:nth-of-type(3) h2 {
+    margin-top: 5.5em;
+
+}
+
+/*  begin sectie 7 */
+main section:nth-of-type(7) {  
+    position: relative;
+    height: 40em;
+}
+
+main section:nth-of-type(7) > h3 {  
+    color: var(--ajax-rood);
+    font-family: 'IBM2';
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    margin-left: 1.5em;
+    margin-top: 6em;
+}
+
+main section:nth-of-type(7) > h2 {  
+    font-size: 24px;
+    font-family: 'JCfont';
+    margin-left: 0.75em;
+    line-height: 1.3;  
+    position: absolute;
+    top: 0.25em;
+}
+
+main section:nth-of-type(7) ul {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: absolute;
+    top: 12em;    
+    left: 1em;
+    gap: 1em;
+    margin: 0;
+    padding: 0em;
+    width: 100%;
+}
+
+main section:nth-of-type(7) ul li {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 320px;
+    overflow-y: unset;
+    border-radius: 8px;
+}
+
+main section:nth-of-type(7) ul li:nth-of-type(1) {
+    background: linear-gradient(180deg,transparent,rgba(0,0,0,1.75)), url(../images/S7I1.webp);
+    background-size: cover;
+    background-position-y: center;
+}
+
+main section:nth-of-type(7) ul li:nth-of-type(2) {
+    background: linear-gradient(180deg,transparent,rgba(0,0,0,1.75)), url(../images/S7I2.webp);
+    background-size: cover;
+    background-position-y: center;
+}
+
+main section:nth-of-type(7) ul li:nth-of-type(3) {
+    background: linear-gradient(180deg,transparent,rgba(0,0,0,1.75)), url(../images/S7I3.webp);
+    background-size: cover;
+    background-position-y: center;
+}
+
+main section:nth-of-type(7) ul li:nth-of-type(4) {
+    background: linear-gradient(180deg,transparent,rgba(0,0,0,1.75)), url(../images/S7I4.webp);
+    background-size: cover;
+    background-position-y: center;
+}
+
+
+
+main section:nth-of-type(7) > a {
+    left: 1em;
+    position: absolute;
+    top: 8em;
+    border-radius: 4px;
+    font-family: 'IBM2';
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    font-size: 12px;
+    color: white;
+    padding: 1em;
+    background-image: linear-gradient( -75deg, var(--rood-accent)4em, var(--ajax-rood) 4em );
+    padding-left: 2em;
+    text-decoration: none;
+    padding-right: 1em;
+    margin-top: 1.5em;
+}
+
+main section:nth-of-type(7) > a img{
+    width: 1.5em;
+    margin-left: 3em;
+}
+
+
+
+main section:nth-of-type(7) ul li h2{
+    font-size: 20px;
+    font-family: 'JCfont';
+    color: white;
+    margin-left: 1em;
+    margin-top: 7em;
+    max-width: 14em;
+    margin-bottom: 0;
+}
+
+main section:nth-of-type(7) ul li h3{
+    font-family: 'IBM';
+    color: white;
+    font-size: 14px;
+    max-width: 272px;
+    margin-left: 1.5em;
+}
+
+main section:nth-of-type(7) ul li a{
+    text-decoration: none;
+    font-family: 'IBM2';
+    color: white;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-left: 1.5em;
+    letter-spacing: 1.05px;
+    margin-right: 1em;
+    margin-top: 0.5em;
+}
+
+main section:nth-of-type(7) ul li a img{
+    width: 1.5em;
+    margin-left: 1em;
+}
+
