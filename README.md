@@ -188,20 +188,20 @@ Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat
 
 
   Sarah:
-  - Ik kan de fonts niet vinden omdat ze geen duidelijke namen hebben
+  - Ik kan de fonts niet vinden omdat ze geen duidelijke namen hebben.
 
-  - Hoe maak ik een rondje boven het winkelmandje
+  - Hoe maak ik een rondje boven het winkelmandje?
 
-  - Hoe krijg ik een link en een p die onder elkaar staan, dichter op elkaar
+  - Hoe krijg ik een link en een p die onder elkaar staan, dichter op elkaar?
 
 
 
   Ezra:
 
   Liam:
-  - Hoe krijg ik 3 verschillende menu opties
-  - Hoe maak ik slideshow met animaties
-  - Hoe zorg ik ervoor dat ik verschillende menus kan sluiten met 1 knop
+  - Hoe krijg ik 3 verschillende menu opties?
+  - Hoe maak ik slideshow met animaties?
+  - Hoe zorg ik ervoor dat ik verschillende menus kan sluiten met 1 knop?
  
 
 
