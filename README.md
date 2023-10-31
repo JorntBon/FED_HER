@@ -189,9 +189,7 @@ Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat
 
   Sarah:
   - Ik kan de fonts niet vinden omdat ze geen duidelijke namen hebben.
-
   - Hoe maak ik een rondje boven het winkelmandje?
-
   - Hoe krijg ik een link en een p die onder elkaar staan, dichter op elkaar?
 
 
@@ -209,13 +207,9 @@ Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  
+  img moet onderin het kopje, s4/s3. H2,H3 & H4 geen position absolute, gebruik padddings. padding: 0 0.75rem; Denk aan responsiveness! NAV mag zo blijven, is een browser bug. Voeg fallback fonts toe bij elke font-family. -webkit-font-smoothing: antialiased;
+  
 </details>
 
 
