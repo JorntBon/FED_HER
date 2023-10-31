@@ -180,30 +180,36 @@ Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-  Jornt:
-  | Waarom blijft niet mijn gehele NAV bar plakken?
-    Hoe krijg ik m’n tekst in dit sectie 4 responsive?
-    Er zijn maar 3 fonts beschikbaar om te downloaden, lukt niet om font-weight mee te geven.
 
-  Magdalena:
+  Jornt:
+  -  Waarom blijft niet mijn gehele NAV bar plakken?
+  - Hoe krijg ik m’n tekst in dit sectie 4 responsive?
+  - Er zijn maar 3 fonts beschikbaar om te downloaden, lukt niet om font-weight mee te geven.
+
 
   Sarah:
+  - Ik kan de fonts niet vinden omdat ze geen duidelijke namen hebben.
+  - Hoe maak ik een rondje boven het winkelmandje?
+  - Hoe krijg ik een link en een p die onder elkaar staan, dichter op elkaar?
 
-  Ezra:
+
+
+  Esra:
+  - Hoe zorg ik ervoor dat de tekst in een section automatisch veranderd?
+  - Hoe rep ik de eerste p in een section aan?
+  - Hoe krijg ik de Jordan en Converse onder elkaar in m'n NAV?
 
   Liam:
-
+  - Hoe krijg ik 3 verschillende menu opties?
+  - Hoe maak ik slideshow met animaties?
+  - Hoe zorg ik ervoor dat ik verschillende menus kan sluiten met 1 knop?
  
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  
+  img moet onderin het kopje, s4/s3. H2,H3 & H4 geen position absolute, gebruik padddings. padding: 0 0.75rem; Denk aan responsiveness! NAV mag zo blijven, is een browser bug. Voeg fallback fonts toe bij elke font-family. -webkit-font-smoothing: antialiased;
+  
 </details>
 
 
