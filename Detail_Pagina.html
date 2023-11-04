@@ -6,7 +6,7 @@
     <meta name="author" content="Jornt Bon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Johan Cruijff ArenA | Welkom in de Johan Cruijff Arena!</title>
+    <title>Klassieke stadiontour</title>
 
     <link href="styles/style.css" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="./images/flavicon.png">
@@ -15,10 +15,9 @@
 <body>  
     <header> 
         <a href="#"><img src="images/arena-logo.png" alt="Johan Cruijff ArenA logo"></a>
-        <button aria-hidden="true"><img src="./images/hamburgermenu.png" alt="hamburger menu icoon" /></button>
+        <button>  <span></span><span></span><span></span>   </button>
         <nav>
             <ul>
-                <li><button tabindex="-1"><img src="./images/kruis.png" alt="sluit menu icoon"></button></li>
                 <li><a href="">kalender</a></li>
                 <li><a href="">oranje</a></li>
                 <li><a href="">restaurants</a><img src="images/pijltje.svg" alt=""></li> 
@@ -34,28 +33,92 @@
                         <li><img tabindex= "0" src="./images/instagram.png" alt="Instagram Icoon"></li>
                         <li><img tabindex= "0" src="./images/LinkedIn.png" alt="LinkedIn Icoon"></li>
                         <li><img tabindex= "0" src="./images/X_Twitter.png" alt="X_Twitter Icoon"></li>
-                        <li><p>Nederlands<img src="./images/NederlandseVlag.png" alt=""></p></li>
+                        <li><p>Nederlands<img src="./images/NederlandseVlag.png" alt="Nederlandse vlag"></p></li>
                     </ul>
             </ul>
          
         </nav>
         
     </header>
-
     <main>
-        <article>
-            <ul>
-                <li><img src="./images/Carroussel_1.jpeg" alt=""></li>
-                <li><img src="./images/Carroussel_2.jpeg" alt=""></li>
-                <li><img src="./images/Carroussel_3.jpeg" alt=""></li>
-                <li><img src="./images/Carroussel_4.png" alt=""></li>
-                <li><img src="./images/Carroussel_5.jpeg" alt=""></li>
-                <li><img src="./images/Carroussel_6.jpeg" alt=""></li>
-                <li><img src="./images/Carroussel_7.jpeg" alt=""></li>
-                <li><img src="./images/Carroussel_8.jpeg" alt=""></li>
-                <li><img src="./images/Carroussel_9.jpeg" alt=""></li>
-            </ul>
+        <!--BRONVERMELDING: Sanne van 't Hooft, https://codepen.io/shooft/pen/KKgXJVm'-->
+        <article id="carousel" class="caroCarrousel" tabIndex="-1">
+                <ul>
+                  <li tabindex= "-1" id="element1"><img src="./images/Carroussel_1.jpeg" alt="JC Arena" /></li>
+                  <li tabindex= "-1" id="element2"><img src="./images/Carroussel_2.jpeg" alt="JC Arena" /></li>
+                  <li tabindex= "-1" id="element3"><img src="./images/Carroussel_3.jpeg" alt="JC Arena" /></li>
+                  <li tabindex= "-1" id="element4"><img src="./images/Carroussel_4.png" alt="JC Arena" /></li>
+                  <li tabindex= "-1" id="element5"><img src="./images/Carroussel_5.jpeg" alt="JC Arena" /></li>
+                  <li tabindex= "-1" id="element6"><img src="./images/Carroussel_6.jpeg" alt="JC Arena" /></li>
+                  <li tabindex= "-1" id="element7"><img src="./images/Carroussel_7.jpeg" alt="JC Arena" /></li>
+                  <li tabindex= "-1" id="element8"><img src="./images/Carroussel_8.jpeg" alt="JC Arena" /></li>
+                  <li tabindex= "-1" id="element9"><img src="./images/Carroussel_9.jpeg" alt="JC Arena" /></li>
+                </ul>
+                
+                
+                <nav>
+                  <ul>
+                    <li><a tabindex= "-1" href="#element1" aria-label="go to element1"></a></li>
+                    <li><a tabindex= "-1" href="#element2" aria-label="go to element2"></a></li>
+                    <li><a tabindex= "-1" href="#element3" aria-label="go to element3"></a></li>
+                    <li><a tabindex= "-1" href="#element4" aria-label="go to element4"></a></li>
+                    <li><a tabindex= "-1" href="#element5" aria-label="go to element5"></a></li>
+                    <li><a tabindex= "-1" href="#element6" aria-label="go to element6"></a></li>
+                    <li><a tabindex= "-1" href="#element7" aria-label="go to element7"></a></li>
+                    <li><a tabindex= "-1" href="#element8" aria-label="go to element8"></a></li>
+                    <li><a tabindex= "-1" href="#element9" aria-label="go to element9"></a></li>
+                  </ul>
+                </nav>
+                
 
+        </article>
+
+        <a tabindex= "0">< Bekijk alle attracties</a>
+
+        <article>
+            <input placeholder="Geen tijd geselecteerd" type="text">
+            <h2 tabindex= "0">selecteer een tijd</h2>
+            <input placeholder="Geen datum geselecteerd" type="text">
+            <h2 tabindex= "0">selecteer een datum</h2>
+            <input placeholder="Geen gasten geselecteerd" type="text">
+            <h2 tabindex= "0">selecteer het aantal gasten</h2>
+            <h3>€ 20.00</h3>
+            <h4>vanaf</h4>
+            <a tabindex= "0" href="">Boek nu</a>
+        </article>
+
+        <article>
+            <h2 tabindex= "0">Klassieke tour</h2>
+            <h3>Aangeboden door: Johan Cruijff ArenA</h3>
+            <p>Tijdens de klassieke tour loop je zelf langs alle exclusieve plekken. Ontdek waar alleen de spelers komen op wedstrijddagen en ervaar het gevoel.</p>
+
+            <h2 tabindex= "0">Wat is inbegrepen</h2>
+            <ul>
+                <li><img src="./images/vinkje.png" alt="">Kleedkamer Ajax</li>
+                <li><img src="./images/vinkje.png" alt="">Kleedkamer tegenstander</li>
+                <li><img src="./images/vinkje.png" alt="">Mixed Zone</li>
+                <li><img src="./images/vinkje.png" alt="">Spelerstunnel</li>
+                <li><img src="./images/vinkje.png" alt="">Veld</li>
+                <li><img src="./images/vinkje.png" alt="">Dug-outs</li>
+                <li><img src="./images/vinkje.png" alt="">Perskamer</li>
+                <li><img src="./images/vinkje.png" alt="">Ajax Gallery of Fame</li>
+                <li><img src="./images/kruisje.png" alt="">Gids</li>
+                <li><img src="./images/kruisje.png" alt="">Audiogids</li>
+            </ul>     
+            <h2 tabindex= "0">Overzicht</h2>
+            <p>Ervaar de opwinding van het Johan Cruijff ArenA Stadion tijdens deze klassieke tour. Op de route vertellen onze enthousiaste gidsen je alles over de exclusieve gebieden. Daarnaast heb je de mogelijkheid om achter de schermen te kijken, met speciale toegang tot gebieden die normaal alleen zijn gereserveerd voor spelers en officials. Neem een kijkje in de officiële kleedkamer van Ajax, wanneer deze niet in gebruik is op wedstrijddagen of tijdens trainingen.</p>
+            <h2 tabindex= "0">Voor je gaat</h2>
+            <p>Vanaf het centraal station neem je metro 50 of 54 naar Amsterdam Bijlmer ArenA, vanaf daar is het 5 minuten lopen naar Hoofd ingang E. <br><br>
+                <i>Let op:</i> tijdens uitwedstrijden is de Ajax kleedkamer niet altijd beschikbaar vanwege het gebruik door de Ajax selectie. Tijdens thuiswedstrijddagen van Ajax zijn er geen tours beschikbaar. Controleer de webshop voor beschikbare tickets.
+                <br><br> Download direct na aanschaf van je tickets de aangegeven Close App voor je tickets. <br><br>
+                Als er iemand in je groep zit die gebruik maakt van een rolstoel, willen we je vragen om eerst contact met ons op te nemen. Dat kan je doen via <a href="emailto:Tour@johancruijffarena.nl">Tour@johancruijffarena.nl</a>.
+                </p>
+                <p>De route kan afwijken op basis van beschikbaarheid.</p>
+
+            <h2 tabindex= "0">Locatie adres</h2>
+            <p>johan cruijff ArenA<br>
+            Johan Cruijff ArenA, Johan Cruijff Boulevard, Amsterdam, Nederland</p>
+            <img src="./images/maps_JC.png" alt="plattegrond foto JC arena locatie">
         </article>
     
     </main>
@@ -72,10 +135,10 @@
             <li><a href="https://www.johancruijffarena.nl/colofon/">Colofon</a></li>
         </ul>
         <ul>
-            <li><a tabindex= "0"><img src="./images/facebook.png" alt=""></a></li>
-            <li><a tabindex= "0"><img src="./images/instagram.png" alt=""></a></li>
-            <li><a tabindex= "0"><img src="./images/LinkedIn.png" alt=""></a></li>
-            <li><a tabindex= "0"><img src="./images/X_Twitter.png" alt=""></a></li>
+            <li><a tabindex= "0"><img src="./images/facebook.png" alt="Facebook Icoon"></a></li>
+            <li><a tabindex= "0"><img src="./images/instagram.png" alt="Instagram Icoon"></a></li>
+            <li><a tabindex= "0"><img src="./images/LinkedIn.png" alt="LinkedIn Icoon"></a></li>
+            <li><a tabindex= "0"><img src="./images/X_Twitter.png" alt="TwitterX Icoon"></a></li>
         </ul>
         <p>© Johan Cruijff ArenA 2023</p>
 

@@ -162,7 +162,9 @@ Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
+  - Website is erg toegankelijk, met duidelijke visuele elementen zodat de gebruiker goed ziet waar hij / zij zich begeeft
+  - Goed gebruik van alt-teksten en aria-labels.
+  - Mijn HTML is (buiten een UL in ul element) veel beter gevalideerd dan de originele HTML.
 </details>
 
 
@@ -222,17 +224,22 @@ Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="./images/DetailPagina_1.png" width="375px" alt="uitomst opdracht 1">
+  
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik heb ontzettend veel geleerd. Belachelijke hoeveelheden code geschreven. Frustratie op hoog niveau ervaren als iets niet lukt.
+  Veel mogelijkheden binnen CSS geleerd. Hoe dingen efficienter kunnen, hoe je responsive (enigszins) kan coderen.
+  Het belang van een correcte HTML structuur. Denk dat mijn website weldegelijk beter toegankelijk is dan het origineel.
+  Vet veel geleerd!
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Graag had ik de caroussel nog verbetert. De 'current' een rode kleur gegeven en pijltjes om te navigeren implementeren.
+  Volgende keer dat ik een website ga ontwerpen begin ik mobile first, grote fout geweest om voor desktop te beginnen.
+  Verder ben ik wel erg tevreden met hoe identiek de site lijkt op het origineel. Wat zeker beter had gekund,
+  is de efficientie van de code. Denk dat er zo 700 regels code af kunnen, alleen ga ik 'm nu niet meer aanraken haha.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
@@ -250,8 +257,7 @@ Wel lekker veel geschreven, waardoor het algehele gevoel van CSS'en wel weer wat
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Voor de carousel op de detailpagina: https://codepen.io/shooft/pen/KKgXJVm. - Sanne van 't Hooft
+  2. voor micro animatie: https://www.sitepoint.com/button-micro-interactions/
 
 </details>

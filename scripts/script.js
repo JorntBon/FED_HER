@@ -1,23 +1,25 @@
-// JS Johan Cruijff Arena //
+/* 
+ Menu openen en sluiten. + spans
+*/
+const menuKnop = document.querySelector("header button:first-of-type");
+const deButton = document.querySelector("header > button");
 
+menuKnop.onclick = function () {
+    toggleMenu();
+    toggleButton();
+};
 
-var menuKnop = document.querySelector("header button:first-of-type");
+function toggleMenu() {
+    const deNav = document.querySelector("header nav:first-of-type ul");
+    deNav.classList.toggle("toonMenu");
+}
 
-menuKnop.onclick = openMenu;
-
-function openMenu(){
-    var deNav = document.querySelector("header nav:first-of-type ul");
-    deNav.classList.add("toonMenu");
+function toggleButton() {
+    deButton.classList.toggle("open");
 }
 
 
 
 
-var sluitKnop = document.querySelector("header nav:first-of-type ul li:first-of-type img");
 
-sluitKnop.onclick = sluitMenu;
 
-function sluitMenu() {
-    var deNav = document.querySelector("header nav:first-of-type ul");
-    deNav.classList.remove("toonMenu");
-}
